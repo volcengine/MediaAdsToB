@@ -1,0 +1,6 @@
+framework module MediaAdsToB {
+  umbrella header "MediaAdsToB-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MediaAdsToB (0.1.0)
+
+DEPENDENCIES:
+  - MediaAdsToB (from `../`)
+
+EXTERNAL SOURCES:
+  MediaAdsToB:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MediaAdsToB: c9fc9e87049b748c1561cb1ee9af50dee9681796
+
+PODFILE CHECKSUM: 06ad90a24b16c1552eb95ce5ddb0df4e4cc24d8e
+
+COCOAPODS: 1.11.0
