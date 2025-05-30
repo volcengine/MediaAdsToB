@@ -25,11 +25,14 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhangyuanshu' => 'zhangyuanshu@bytedance.com' }
-  s.source           = { :git => 'https://github.com/volcengine/MediaAdsToB', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/volcengine/MediaAdsToB.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
-  s.static_framework = true
+
+  s.user_target_xcconfig = {
+    'GENERATE_INFOPLIST_FILE' => 'YES'
+  }
 
   s.source_files = 'MediaAdsToB/Classes/**/*'
   
